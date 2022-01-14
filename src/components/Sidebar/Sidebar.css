@@ -3,6 +3,7 @@
     width: 15vw;
     height: 100vh;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 1;
 }
 .iconTitleSideBar{
     display: none;
@@ -22,6 +23,9 @@
     position: relative;
     top: 2px;
     left: 4px;
+}
+.linkHeaderSidebar:hover{
+    color: #2e3440;
 }
 .iconTitleSideBar button{
     position: relative;
@@ -55,6 +59,7 @@
 }
 .linkSidebar:hover{
     background-color: rgb(180, 180, 180);
+    color: #2e3440;
     border-radius: 6px;
     transition: 300ms;
 }

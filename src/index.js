@@ -3,10 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Login from './components/Login/Login';
+import Motor from './components/Motor/Motor';
+import Seguridad from './components/Seguridad/Seguridad';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" exact={true} element={<App/>}/>
+      <Route path="/login" exact={true} element={<Login/>}/>
+      <Route path="/motor" exact={true} element={<Motor/>}/>
+      <Route path="/Seguridad" exact={true} element={<Seguridad/>}/>
+    </Routes>
+  </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

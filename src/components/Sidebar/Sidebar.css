@@ -1,6 +1,6 @@
 .sidebarContainer{
     background-color: #fff;
-    width: 240px;
+    width: 15vw;
     height: 100vh;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -77,10 +77,23 @@
 }
 
 @media only screen and (min-width: 992px){
+    .sidebarContainer{
+        width: 25vw;
+    }
     .iconTitleSideBar{
         display: flex;
         align-items: center;
         justify-content: space-around;
         padding: 16px 0px 24px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .sidebarContainer{
+        width: 20vw;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .sidebarContainer{
+        width: 15vw;
     }
 }

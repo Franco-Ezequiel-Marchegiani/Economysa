@@ -1,3 +1,8 @@
-.headerContainer{
+.header{
+    width: 85vw;
     background-color: #eceff4;
+}
+.headerContent{
+    display: flex;
+    justify-content: end;
 }

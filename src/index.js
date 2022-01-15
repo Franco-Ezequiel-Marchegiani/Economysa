@@ -15,7 +15,7 @@ ReactDOM.render(
       <Route path="/" exact={true} element={<App/>}/>
       <Route path="/login" exact={true} element={<Login/>}/>
       <Route path="/Seguridad" exact={true} element={<Seguridad/>}/>
-      <Route path="/motor" exact={true} element={<Motor/>}/>
+      <Route path="/motor/:id" exact={true} element={<Motor/>}/>
     </Routes>
   </BrowserRouter>
   </React.StrictMode>,

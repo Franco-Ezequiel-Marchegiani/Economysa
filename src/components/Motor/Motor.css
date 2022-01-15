@@ -1,0 +1,8 @@
+.inputCodigo{
+    width: 100%
+}
+@media only screen and (min-width: 768px){
+    .inputCodigo{
+        width: 35%
+    }
+}

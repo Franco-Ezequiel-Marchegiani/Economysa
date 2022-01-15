@@ -7,6 +7,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './components/Login/Login';
 import Motor from './components/Motor/Motor';
 import Seguridad from './components/Seguridad/Seguridad';
+import FormularioUsuarios from './components/Formularios/FormularioUsuarios';
+import FormularioMotores from './components/Formularios/FormularioMotores';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,7 +17,9 @@ ReactDOM.render(
       <Route path="/" exact={true} element={<App/>}/>
       <Route path="/login" exact={true} element={<Login/>}/>
       <Route path="/Seguridad" exact={true} element={<Seguridad/>}/>
+      <Route path="/Seguridad/create-user" exact={true} element={<FormularioUsuarios/>}/>
       <Route path="/motor/:id" exact={true} element={<Motor/>}/>
+      <Route path="/motor/form-motor/:id" exact={true} element={<FormularioMotores/>}/>
     </Routes>
   </BrowserRouter>
   </React.StrictMode>,

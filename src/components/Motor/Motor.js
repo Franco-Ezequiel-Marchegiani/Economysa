@@ -13,33 +13,33 @@ function Motor() {
   let titulosMotores = [
     {
       id: 1,
-      titulo: "Listado de Direcciones Entrega",
+      titulo: "Listado de Clientes",
     },
     {
       id: 2,
-      titulo: "Listado de Clientes",
-    },
+      titulo: "Listado de Direcciones Entrega",
+    }
   ]
   let columnasTablasMotores = [
     {
       id: 1,
-      columna1: "Código",
-      columna2: "Código Cli",
-      columna3: "Dirección Entrega",
-      columna4: "Ruta",
-      columna5: "Módulo",
-      columna6: "Ubigeo",
-      columna7: "Estado",
-      columna8: "Acciones",
-    },
-    {
-      id: 2,
       columna1: "Código",
       columna2: "Nombre",
       columna3: "Código Padre",
       columna4: "Razón Social",
       columna5: "Tipo Documento",
       columna6: "Nro. Documento",
+      columna7: "Estado",
+      columna8: "Acciones",
+    },
+    {
+      id: 2,
+      columna1: "Código",
+      columna2: "Código Cli",
+      columna3: "Dirección Entrega",
+      columna4: "Ruta",
+      columna5: "Módulo",
+      columna6: "Ubigeo",
       columna7: "Estado",
       columna8: "Acciones",
     }
@@ -78,7 +78,10 @@ function Motor() {
         </div>
         <section className='tableContainer'>
           <div className='tableContent'>
-          <button className='btn-new'><Link className='linkBtn-new' to="#"><i className="fas fa-plus"></i> Nuevo</Link></button>
+          {id === 1 ? <button className='btn-new'><Link className='linkBtn-new' to="/Seguridad/create-user"><i className="fas fa-plus"></i> Nuevo</Link></button> 
+          : 
+          <button className='btn-new'><Link className='linkBtn-new' to="/motor/form-motor"><i className="fas fa-plus"></i> Nuevo</Link></button>}
+          
                 <Table striped bordered hover>
                     <thead>
                       <tr>

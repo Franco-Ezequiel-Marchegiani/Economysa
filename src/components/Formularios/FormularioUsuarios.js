@@ -12,10 +12,12 @@ function FormularioUsuarios() {
         <Header/>
         <div className='divEspacioHome'><p>...</p></div>
         <div className='infoPrincipal'>
+        <h2 className='titleUserCreate'>Crear Cliente</h2>
           <div className='infoPrincipalContainer'>
-            <h1>Empty Page</h1>
-            <p>Use this page to start from scratch and place your custom content.</p>
-            <button>Home</button>
+            <div>
+                <label htmlFor="">Algo</label>
+                <input type="text" />
+            </div>
           </div>
         </div>
         <Footer/>

@@ -3,7 +3,7 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
 import { Form, Table, Pagination } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import './Motor.css';
 
 function Motor() {
@@ -78,7 +78,7 @@ function Motor() {
         </div>
         <section className='tableContainer'>
           <div className='tableContent'>
-          <button className='btn-new'><i className="fas fa-plus"></i> Nuevo</button>
+          <button className='btn-new'><Link className='linkBtn-new' to="#"><i className="fas fa-plus"></i> Nuevo</Link></button>
                 <Table striped bordered hover>
                     <thead>
                       <tr>

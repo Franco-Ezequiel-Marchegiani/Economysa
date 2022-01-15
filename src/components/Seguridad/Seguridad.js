@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
 import './Seguridad.css';
 import { Form, Table, Pagination } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function Seguridad() {
   return (
@@ -39,7 +40,7 @@ function Seguridad() {
         </div>
         <section className='tableContainer'>
           <div className='tableContent'>
-          <button className='btn-new'><i className="fas fa-plus"></i> Nuevo</button>
+          <button className='btn-new'><Link className='linkBtn-new' to="/Seguridad/create-user"><i className="fas fa-plus"></i> Nuevo</Link></button>
                 <Table striped bordered hover>
                     <thead>
                       <tr>

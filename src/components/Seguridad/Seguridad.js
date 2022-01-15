@@ -3,7 +3,7 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
 import './Seguridad.css';
-import { Form, Table } from 'react-bootstrap';
+import { Form, Table, Pagination } from 'react-bootstrap';
 
 function Seguridad() {
   return (
@@ -12,7 +12,7 @@ function Seguridad() {
       <section className='fondoGeneral'>
         <Header/>
         <div className='divEspacioHome'><p>...</p></div>
-        <div className='infoPrincipal'>
+        <div className='infoPrincipalSeguridadYMotor'>
             <section className='infoListadoUsuarioContainer'>
                 <h2>Listado de Usuarios</h2>
                   <div className='filtradoBusquedaContainer'>
@@ -38,35 +38,49 @@ function Seguridad() {
             </section>
         </div>
         <section className='tableContainer'>
-              <Table striped bordered hover>
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>First Name</th>
-                      <th>Last Name</th>
-                      <th>Username</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td colSpan={2}>Larry the Bird</td>
-                      <td>@twitter</td>
-                    </tr>
-                  </tbody>
-              </Table>        
+          <div className='tableContent'>
+          <button className='btn-new'><i className="fas fa-plus"></i> Nuevo</button>
+                <Table striped bordered hover>
+                    <thead>
+                      <tr>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Roles</th>
+                        <th>Teléfono</th>
+                        <th>Fecha Creación</th>
+                        <th>Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td colSpan={2}>Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                </Table>
+                <div className='paginationContainer'>
+                  <Pagination className='pagination'>
+                    <Pagination.First className='paginationFlechasIzquierda'/>
+                    <Pagination.Prev className='paginationFlechasIzquierda'/>
+                    <Pagination.Item className='paginationItem' active>{1}</Pagination.Item>
+                    <Pagination.Next className='paginationFlechasDerecha'/>
+                    <Pagination.Last className='paginationFlechasDerecha'/>
+                  </Pagination>
+                </div>     
+          </div>   
         </section>
         <Footer/>
       </section>

@@ -20,6 +20,10 @@ body{
 .infoPrincipal{
   padding: 28px;
 }
+.infoPrincipalSeguridadYMotor{
+  padding: 28px;
+  padding-bottom: 0px;
+}
 .infoPrincipalContainer{
   border-radius: 4px;
   background: #ffffff;

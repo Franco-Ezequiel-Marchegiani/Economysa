@@ -25,12 +25,12 @@
 }
 .btn-search{
     color: #ffffff;
-  background-color: #5E81AC;
-  border: 1px solid transparent;
-  font-size: 14px;
-  border-radius: 4px;
-  transition: background-color 0.15s, box-shadow 0.15s;
-  padding: 6px 12px;
+    background-color: #5E81AC;
+    border: 1px solid transparent;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.15s, box-shadow 0.15s;
+    padding: 6px 12px;
 }
 .filtradoBusquedaContainer{
     background-color: #fff;
@@ -43,7 +43,65 @@
 }
 .formularioContainer{
     padding:15px;
-    
+}
+.btn-new{
+    color: #ffffff;
+    background-color: #5E81AC;
+    border: 1px solid transparent;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.15s, box-shadow 0.15s;
+    padding: 6px 12px;
+    margin: 7px;
+}
+.tableContainer{
+    padding: 28px;
+    padding-top: 0px;
+}
+.tableContent{
+    padding: 18px 18px 32px 18px;
+    background-color: #fff;
+}
+.tableContent table{
+    margin: 0px;
+}
+.paginationContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    background: #f5f5f5;
+    border: 1px solid #dddddd;
+    border-top: none;
+}
+.page-item.active .page-link{
+    background-color: #5E81AC;
+    color: #ffffff;
+    border-color: #5E81AC;
+    font-weight: 700;
+}
+.page-link{
+    color: #5E81AC;
+    min-width: 34px;
+    min-height: 34px;
+    background-color: #eeeeee;
+}
+.paginationItem{
+    background-color: #5E81AC;
+    color: #ffffff;
+    border-color: #5E81AC;
+}
+.paginationFlechasIzquierda{
+    color: #5E81AC;
+    min-width: 34px;
+    min-height: 34px;
+    border: 1px solid #dddddd;
+}
+.paginationFlechasDerecha{
+    color: #5E81AC;
+    min-width: 34px;
+    min-height: 34px;
+    border: 1px solid #dddddd;
 }
 @media only screen and (min-width: 768px){
     .formularioContainer{

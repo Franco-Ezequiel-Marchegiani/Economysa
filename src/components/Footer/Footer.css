@@ -1,0 +1,37 @@
+.footerContainer{
+    background-color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-right: 40px;
+    height: 120px;
+    padding: 10px 30px;
+  }
+  .footerContainer img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  .footerTextContainer{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .footerTextContainer p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #4c566a;
+    padding-left: 12px;
+    position: relative;
+    top: 5px;
+  }
+  .footerTextContainer span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #9199a9;
+    padding-right: 10px;
+    position: relative;
+    bottom: 10px;
+  }

@@ -6,43 +6,6 @@ body{
   width: 100%;
   box-sizing: border-box;
 }
-.homeRellenoContainer{
-  background-color: #fff;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding-right: 40px;
-  height: 120px;
-  padding: 10px 30px;
-}
-.homeRellenoContainer img{
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-}
-.homeTextoRellenoContainer{
-  padding-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-.homeTextoRellenoContainer p{
-  font-size: 16px;
-  font-weight: 500;
-  color: #4c566a;
-  padding-left: 12px;
-  position: relative;
-  top: 5px;
-}
-.homeTextoRellenoContainer span{
-  font-size: 13px;
-  font-weight: 500;
-  color: #9199a9;
-  padding-right: 10px;
-  position: relative;
-  bottom: 10px;
-}
 .fondoHome{
   background-color: #eceff4;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

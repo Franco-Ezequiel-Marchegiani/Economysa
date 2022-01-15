@@ -14,15 +14,15 @@ function Sidebar() {
       <button><i className="fas fa-lock"></i></button>
     </div>
     <div className='linksContainer'>
-        <Link className='linkSidebar' to="#">Dasboard <i className="fas fa-home"></i></Link>
-        <Link className='linkSidebar' to="#">
+        <Link className='linkSidebar' to="/">Dasboard <i className="fas fa-home"></i></Link>
+        <Link className='linkSidebar' to="/Seguridad">
             Seguridad 
             <div className='iconContainerSeguridad'>
             <i className="fas fa-chevron-down"></i>
             <i className="fas fa-lock lockLink"></i>
             </div>
         </Link>
-        <Link className='linkSidebar' to="#">
+        <Link className='linkSidebar' to="/motor">
             Motor
             <div>
                 <i className="fas fa-chevron-down"></i>

@@ -3,6 +3,7 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
 import './Formularios.css';
+import { Form } from 'react-bootstrap';
 
 function FormularioUsuarios() {
     let arrayInputsUsers = [
@@ -74,15 +75,17 @@ function FormularioUsuarios() {
         <Header/>
         <div className='divEspacioHome'><p>...</p></div>
         <div className='infoPrincipal'>
-        <h2 className='titleUserCreate'>Crear Cliente</h2>
-          <div className='infoPrincipalContainer'>
-            {arrayInputsUsers.map((input, i) =>{
-                return <div>
-                    <label htmlFor="">{input.title}</label>
-                    <input type={input.inputType} />                    
+            <h2 className='titleUserCreate'>Crear Cliente</h2>
+                <div className='infoPrincipalContainer'>
+                    <Form className='inputContainerAll'>                
+                        {arrayInputsUsers.map((input, i) =>{
+                            return <Form.Group className="mb-3 inputContainer" controlId="formBasicEmail">
+                                        <Form.Label>{input.title}</Form.Label>
+                                        <Form.Control type={input.inputType}/>
+                                   </Form.Group>
+                        })}
+                    </Form>
                 </div>
-            })}
-          </div>
         </div>
         <Footer/>
       </section>

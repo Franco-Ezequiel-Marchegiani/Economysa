@@ -8,3 +8,14 @@
     font-weight: bold;
     margin: 17px 0 10px;
 }
+@media only screen and (min-width: 768px){
+    .inputContainerAll{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .inputContainer{
+        width: 30%;
+        padding: 0px 7px;
+    }
+}

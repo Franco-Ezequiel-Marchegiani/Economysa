@@ -85,6 +85,10 @@ function FormularioUsuarios() {
                                    </Form.Group>
                         })}
                     </Form>
+                    <div>
+                    <label htmlFor="">Estado</label>
+                        <input type="checkbox" />
+                    </div>
                 </div>
         </div>
         <Footer/>

@@ -15,7 +15,7 @@ function FormularioMotores() {
       {
           id:2,
           title: "Cod Cliente",
-          inputType: "text"
+          inputType: "number"
       },
       {
           id:3,
@@ -35,27 +35,27 @@ function FormularioMotores() {
       {
           id:6,
           title: "Ubigeo",
-          inputType: "number"
+          inputType: "text"
       },
       {
           id:7,
           title: "Giro",
-          inputType: "number"
+          inputType: "text"
       },
       {
           id:8,
           title: "Latitud",
-          inputType: "email"
+          inputType: "text"
       },
       {
           id:9,
           title: "Longitud",
-          inputType: "number"
+          inputType: "text"
       },
       {
           id:10,
           title: "Secuencia Visita",
-          inputType: "number"
+          inputType: "text"
       },
       {
           id:11,

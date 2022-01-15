@@ -86,8 +86,8 @@ function FormularioUsuarios() {
                         })}
                     </Form>
                     <div>
-                    <label htmlFor="">Estado</label>
                         <input type="checkbox" />
+                    <label htmlFor="">Estado</label>
                     </div>
                 </div>
         </div>

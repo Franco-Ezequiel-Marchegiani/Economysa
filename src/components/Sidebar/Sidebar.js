@@ -7,7 +7,7 @@ function Sidebar() {
   return (
     <aside className="sidebarContainer">
     <div className='iconTitleSideBar'>
-        <Link className='linkHeaderSidebar' to="#">
+        <Link className='linkHeaderSidebar' to="/">
             <img src={Logo} alt="ej" />
             <span>Economysa</span>
         </Link>

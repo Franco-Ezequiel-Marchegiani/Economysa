@@ -6,12 +6,12 @@ import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
-    <section className="homeContainer">
+    <section className="globalContainerContent">
       <Sidebar/>
-      <section className='fondoHome'>
+      <section className='fondoGeneral'>
         <Header/>
         <div className='divEspacioHome'><p>...</p></div>
-        <div className='infoPrincipalHome'>
+        <div className='infoPrincipal'>
           <div className='infoPrincipalContainer'>
             <h1>Empty Page</h1>
             <p>Use this page to start from scratch and place your custom content.</p>

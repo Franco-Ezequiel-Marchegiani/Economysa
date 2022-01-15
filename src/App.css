@@ -1,4 +1,4 @@
-.homeContainer{
+.globalContainerContent{
   min-width: 100%;
   display: flex;
 }
@@ -6,7 +6,7 @@ body{
   width: 100%;
   box-sizing: border-box;
 }
-.fondoHome{
+.fondoGeneral{
   background-color: #eceff4;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -17,7 +17,7 @@ body{
 .divEspacioHome p{
   visibility: hidden;
 }
-.infoPrincipalHome{
+.infoPrincipal{
   padding: 28px;
 }
 .infoPrincipalContainer{

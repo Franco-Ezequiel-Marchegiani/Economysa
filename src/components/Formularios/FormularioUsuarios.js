@@ -76,10 +76,12 @@ function FormularioUsuarios() {
         <div className='infoPrincipal'>
         <h2 className='titleUserCreate'>Crear Cliente</h2>
           <div className='infoPrincipalContainer'>
-            <div>
-                <label htmlFor="">Algo</label>
-                <input type="text" />
-            </div>
+            {arrayInputsUsers.map((input, i) =>{
+                return <div>
+                    <label htmlFor="">{input.title}</label>
+                    <input type={input.inputType} />                    
+                </div>
+            })}
           </div>
         </div>
         <Footer/>

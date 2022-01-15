@@ -123,7 +123,6 @@ function Motor() {
         </section>
         <Footer/>
       </section>
-
     </section>
   );
 }

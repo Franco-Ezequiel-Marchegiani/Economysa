@@ -12,6 +12,20 @@
     font-weight: 100;
     letter-spacing: 1px;
     margin: 20px 0;
+    color: #9199a9;
+}
+.titleNotFound span{
+    display: block;
+}
+.lineNotFound{
+    color: #c3ccdd;
+    width: 99px;
+    height: 1px;
+}
+.parraNotFound{
+    color: #c3ccdd; 
+    max-width: 80%;
+    padding: 8px 0 32px;
 }
 .notFoundContent{
     display: flex;
@@ -39,5 +53,10 @@
     }
     .titleNotFound{
         font-size: 42px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .titleNotFound span{
+        display: inline;
     }
 }

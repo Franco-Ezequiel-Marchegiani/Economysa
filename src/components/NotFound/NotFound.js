@@ -11,7 +11,7 @@ function NotFound() {
                         <div className='notFoundContainer'>
                             <div className='notFoundContent'>
                                 <span className='span404'>404</span>
-                                <h1 className='titleNotFound'>Page Not Found</h1>
+                                <h1 className='titleNotFound'>Page Not <span>Found</span></h1>
                                 <hr className='lineNotFound'/>
                                 <p className='parraNotFound'>Requested resource is not available right now. Please try again later.</p>
                                 <Link to="/">

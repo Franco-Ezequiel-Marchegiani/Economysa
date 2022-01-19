@@ -1,0 +1,84 @@
+.loginContainerAll_dark{
+    background-color: rgba(32, 37, 46, 0.3);
+    height: 100vh;
+    position: relative;
+}
+.titleLogin_dark{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    text-align: center;
+}
+.parrafoLogin_dark{
+    text-align: center;
+    color: #d8dee9;
+}
+
+@media only screen and (min-width: 740px){
+    .loginContainerAll_dark{
+        background-color: rgba(216, 222, 233, 0.3);
+        height: 100vh;
+        position: relative;
+    }
+    .loginContainerAll{
+        background-color: #eceff4;
+    }
+    .loginContainerImagebg{
+        width: 100vw;
+        height: 100vh;
+    }
+    .loginContainer_dark{
+        background-color: rgba(32, 37, 46, 0.3);
+        max-width: 40%;
+        height: 100%;
+        margin: auto;
+        position: static;
+        z-index: -5;
+    }
+    .imagenFondo{
+        width: 100%;
+        height: 20%;
+        background-image: url("../../images/fondoLogin.svg");
+        background-repeat: no-repeat;
+        background-position: 0 20%;
+        background-size: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    .formLogin{
+        width: 75%;
+    }
+    .titleLogin_dark{
+        font-size: 42px;
+    }
+    .titleLogin_dark span{
+        display: block;
+    }
+    .loginContent{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    .loginContent img{
+        width: 80px;
+    }
+    .btn-datosFormRegister{
+        color: #fff;
+        background-color: #5381AC;
+        font-size: 14px;
+        border: none;
+        padding: 8px 24px;
+        border-radius: 4px;
+        margin-bottom: 250px;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .titleLogin_dark span{
+        display: inline;
+    }
+    .loginContainer_dark{
+        padding-bottom: 20px;
+    }
+}

@@ -12,7 +12,7 @@ function LoginLightMode() {
       <section className="loginContainerAll">
         <i onClick={() => setDarkMode(true)} class="fas fa-circle btn-darkModeLogin"></i>
           <div>
-              <main className='prueba'>
+              <main>
                   <div className='loginContainer'>
                       <div className='loginContent'>
                       <div className='iconLoginContainer'>

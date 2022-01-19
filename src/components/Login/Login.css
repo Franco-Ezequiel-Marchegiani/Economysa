@@ -44,6 +44,7 @@
 .inputRegister{
     font-size: 14px;
     color: #4c566a;
+    position: relative;
 }
 .imagenFondo{
     width: 100%;
@@ -54,9 +55,6 @@
     background-size: cover;
     position: absolute;
     bottom: 0;
-}
-.inputRegister{
-    position: relative;
 }
 .fa-user{
     color: #9199a9;

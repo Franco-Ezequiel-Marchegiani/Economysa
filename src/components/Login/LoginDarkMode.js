@@ -21,15 +21,15 @@ function LoginDarkMode() {
                                     <h1 className='titleLogin_dark'><span>Ingresa a</span> <span>Economysa</span></h1>
                                     <p className='parrafoLogin_dark'>Bienvenido. Ingrese sus credenciales.</p>
                                     <Form className='formLogin'>
-                                            <Form.Group className="mb-3 inputRegister" controlId="formBasicEmail">
+                                            <Form.Group className="mb-3 inputRegister_dark" controlId="formBasicEmail">
                                             <Form.Label>Correo electrónico</Form.Label>
-                                                <Form.Control type="email" placeholder="Ingresa tu correo electrónico..." />
+                                                <Form.Control className='inputRegisterInput_dark' type="email" placeholder="Ingresa tu correo electrónico..." />
                                                 <i class="fas fa-user"></i>
                                             </Form.Group>
 
-                                            <Form.Group className="mb-3 inputRegister" controlId="formBasicPassword">
+                                            <Form.Group className="mb-3 inputRegister_dark" controlId="formBasicPassword">
                                             <Form.Label>Contraseña</Form.Label>
-                                                <Form.Control type="password" placeholder="Ingresa tu contraseña..." />
+                                                <Form.Control className='inputRegisterInput_dark' type="password" placeholder="Ingresa tu contraseña..." />
                                                 <i className="fas fa-lock"></i>
                                             </Form.Group>
                                             <button className='btn-datosFormRegister' type="submit">

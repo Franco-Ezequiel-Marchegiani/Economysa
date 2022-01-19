@@ -15,7 +15,17 @@
     text-align: center;
     color: #d8dee9;
 }
-
+.inputRegister_dark{
+    font-size: 14px;
+    background-color: transparent;
+    color: #c3ccdd;
+    position: relative;
+}
+.inputRegisterInput_dark{
+    background-color: transparent;
+    border: solid 1px #c3ccdd;
+    color: #d8dee9;
+}
 @media only screen and (min-width: 740px){
     .loginContainerAll_dark{
         background-color: rgba(216, 222, 233, 0.3);

@@ -21,11 +21,13 @@ function Login() {
                           <Form.Group className="mb-3 inputRegister" controlId="formBasicEmail">
                             <Form.Label>Correo electrónico</Form.Label>
                                 <Form.Control type="email" placeholder="Ingresa tu correo electrónico..." />
+                                <i class="fas fa-user"></i>
                           </Form.Group>
 
                           <Form.Group className="mb-3 inputRegister" controlId="formBasicPassword">
                             <Form.Label>Contraseña</Form.Label>
                                 <Form.Control type="password" placeholder="Ingresa tu contraseña..." />
+                                <i className="fas fa-lock"></i>
                           </Form.Group>
                           <button className='btn-datosFormRegister' type="submit">
                             Ingresar

@@ -1,6 +1,17 @@
 .loginContainerAll{
     background-color: rgba(216, 222, 233, 0.3);
     height: 100vh;
+    position: relative;
+}
+.btn-darkModeLogin{
+    border: none;
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    right: 40px;
 }
 .btn-datosFormRegister{
     color: #fff;

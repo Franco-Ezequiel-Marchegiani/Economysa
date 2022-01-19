@@ -20,24 +20,21 @@ function Login() {
                       <Form className='formLogin'>
                           <Form.Group className="mb-3 inputRegister" controlId="formBasicEmail">
                             <Form.Label>Correo electrónico</Form.Label>
-                              <div>
                                 <Form.Control type="email" placeholder="Ingresa tu correo electrónico..." />
-                                <i className="fas fa-lock"></i>
-                              </div>
                           </Form.Group>
 
                           <Form.Group className="mb-3 inputRegister" controlId="formBasicPassword">
                             <Form.Label>Contraseña</Form.Label>
-                              <div>
                                 <Form.Control type="password" placeholder="Ingresa tu contraseña..." />
-                                <i className="fas fa-lock"></i>
-                              </div>
                           </Form.Group>
                           <button className='btn-datosFormRegister' type="submit">
                             Ingresar
                           </button>
                       </Form>
                     </div>
+                  </div>
+                  <div className='pruebaImg'>
+
                   </div>
             </main>
           </div>

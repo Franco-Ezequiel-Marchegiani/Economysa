@@ -5,7 +5,6 @@ import Logo from '../../images/logo.png'
 import LoginDarkMode from './LoginDarkMode';
 function LoginLightMode() {
   const [darkMode, setDarkMode] = useState(false);
-  console.log(darkMode);
   return (
     <section>
     {darkMode === false ?  

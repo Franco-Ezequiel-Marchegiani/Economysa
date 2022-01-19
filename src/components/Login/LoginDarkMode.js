@@ -5,12 +5,11 @@ import Logo from '../../images/logo.png'
 import Login from './Login';
 function LoginDarkMode() {
     const [darkMode, setDarkMode] = useState(true);
-  console.log(darkMode);
   return (
       <section>
           {darkMode === true ?
             <section className="loginContainerAll_dark">
-                <i onClick={() => setDarkMode(false)} class="fas fa-circle btn-darkModeLogin"></i>
+                <i onClick={() => setDarkMode(false)} class="far fa-circle btn-darkModeLogin_dark"></i>
                     <div>
                         <main>
                             <div className='loginContainer_dark'>
@@ -32,7 +31,7 @@ function LoginDarkMode() {
                                                 <Form.Control className='inputRegisterInput_dark' type="password" placeholder="Ingresa tu contraseña..." />
                                                 <i className="fas fa-lock"></i>
                                             </Form.Group>
-                                            <button className='btn-datosFormRegister' type="submit">
+                                            <button className='btn-datosFormRegister_dark' type="submit">
                                             Ingresar
                                             </button>
                                     </Form>

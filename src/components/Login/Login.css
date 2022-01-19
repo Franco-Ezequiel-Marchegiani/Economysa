@@ -4,9 +4,7 @@
     position: relative;
 }
 .btn-darkModeLogin{
-    border: none;
-    width: 32px;
-    height: 32px;
+    cursor: pointer;
     font-size: 32px;
     font-weight: bold;
     position: absolute;
@@ -111,15 +109,6 @@
     }
     .loginContent img{
         width: 80px;
-    }
-    .btn-datosFormRegister{
-        color: #fff;
-        background-color: #5381AC;
-        font-size: 14px;
-        border: none;
-        padding: 8px 24px;
-        border-radius: 4px;
-        margin-bottom: 250px;
     }
 }
 @media only screen and (min-width: 1000px){

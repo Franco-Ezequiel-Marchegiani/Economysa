@@ -29,7 +29,7 @@ function LoginLightMode() {
                             <Form.Group className="mb-3 inputRegister" controlId="formBasicPassword">
                               <Form.Label>Contraseña</Form.Label>
                                   <Form.Control type="password" placeholder="Ingresa tu contraseña..." />
-                                  <i className="fas fa-lock"></i>
+                                  <i className="fas fa-lock logoPasswordLogin"></i>
                             </Form.Group>
                             <button className='btn-datosFormRegister' type="submit">
                               Ingresar

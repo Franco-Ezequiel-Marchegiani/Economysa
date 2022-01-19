@@ -38,7 +38,6 @@ function LoginLightMode() {
                       </div>
                     </div>
                     <div className='imagenFondo'>
-
                     </div>
               </main>
             </div>

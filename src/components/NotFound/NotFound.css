@@ -3,6 +3,9 @@
     height: 100vh;
     position: relative;
 }
+.containerContentAll{
+    background-image: linear-gradient(to bottom, #444c5b -9%, #20252e);
+}
 .imageSunNotFound{
     position: absolute;
     right: 0;
@@ -30,6 +33,9 @@
     color: #c3ccdd;
     width: 99px;
     height: 1px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
 }
 .parraNotFound{
     color: #c3ccdd; 
@@ -50,6 +56,16 @@
     padding: 6px 16px;
     border-radius: 4px;
 }
+.imagenFondoNotFound{
+    width: 100%;
+    height: 30vh;
+    background-image: url("../../images/bg404.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+}
 @media only screen and (min-width: 740px){
     .notFoundContainer{
         background-color: rgba(0, 0, 0, 0.1);
@@ -67,9 +83,43 @@
     .titleNotFound{
         font-size: 42px;
     }
+    .imagenFondoNotFound{
+        width: 100%;
+        height: 20%;
+        background-image: url("../../images/bg404.svg");
+        background-repeat: no-repeat;
+        background-position: 0 20%;
+        background-size: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .imagenFondoNotFound{
+        width: 100%;
+        height: 25%;
+        background-image: url("../../images/bg404.svg");
+        background-repeat: no-repeat;
+        background-position: 0 25%;
+        background-size: 100%;
+        position: absolute;
+        bottom: 0;
+    }
 }
 @media only screen and (min-width: 1200px){
     .titleNotFound span{
         display: inline;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .imagenFondoNotFound{
+        width: 100%;
+        height: 30%;
+        background-image: url("../../images/bg404.svg");
+        background-repeat: no-repeat;
+        background-position: 0 10%;
+        background-size: 100%;
+        position: absolute;
+        bottom: 0;
     }
 }

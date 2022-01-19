@@ -6,7 +6,6 @@ function NotFound() {
   return (
         <section className="notFoundContainerAll">
             <img className='imageSunNotFound' src={ImageSun} alt="Sun 404" />
-                <div>
                     <main>
                         <div className='notFoundContainer'>
                             <div className='notFoundContent'>
@@ -19,8 +18,9 @@ function NotFound() {
                                 </Link>
                             </div>
                         </div>
+                        <div className='imagenFondoNotFound'>
+                        </div>
                     </main>
-                </div>
          </section>
   );
 }

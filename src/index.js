@@ -9,6 +9,7 @@ import Motor from './components/Motor/Motor';
 import Seguridad from './components/Seguridad/Seguridad';
 import FormularioUsuarios from './components/Formularios/FormularioUsuarios';
 import FormularioMotores from './components/Formularios/FormularioMotores';
+import NotFound from './components/NotFound/NotFound';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
       <Route path="/Seguridad/create-user" exact={true} element={<FormularioUsuarios/>}/>
       <Route path="/motor/:id" exact={true} element={<Motor/>}/>
       <Route path="/motor/form-motor" exact={true} element={<FormularioMotores/>}/>
+      <Route path="*" element={<NotFound/>}/>
     </Routes>
   </BrowserRouter>
   </React.StrictMode>,

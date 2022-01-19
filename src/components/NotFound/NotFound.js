@@ -1,49 +1,27 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './NotFound.css';
-import { Form } from 'react-bootstrap';
-import Logo from '../../images/logo.png';
-
+import { Link } from 'react-router-dom';
+import ImageSun from '../../images/sun404.svg'
 function NotFound() {
-    const [darkMode, setDarkMode] = useState(true);
   return (
-      <section>
-          {darkMode === true ?
-            <section className="loginContainerAll_dark">
-                <i onClick={() => setDarkMode(false)} class="far fa-circle btn-darkModeLogin_dark"></i>
+            <section className="loginContainerAll">
+                <img className='imageSunNotFound' src={ImageSun} alt="Sun 404" />
                     <div>
                         <main>
-                            <div className='loginContainer_dark'>
+                            <div className='loginContainer'>
                                 <div className='loginContent'>
-                                    <div className='iconLoginContainer'>
-                                        <img src={Logo} alt="" />
-                                    </div>
-                                    <h1 className='titleLogin_dark'><span>ERROR404 a</span> <span>Economysa</span></h1>
-                                    <p className='parrafoLogin_dark'>Bienvenido. Ingrese sus credenciales.</p>
-                                    <Form className='formLogin'>
-                                            <Form.Group className="mb-3 inputRegister_dark" controlId="formBasicEmail">
-                                            <Form.Label>Correo electrónico</Form.Label>
-                                                <Form.Control className='inputRegisterInput_dark' type="email" placeholder="Ingresa tu correo electrónico..." />
-                                                <i class="fas fa-user"></i>
-                                            </Form.Group>
-
-                                            <Form.Group className="mb-3 inputRegister_dark" controlId="formBasicPassword">
-                                            <Form.Label>Contraseña</Form.Label>
-                                                <Form.Control className='inputRegisterInput_dark' type="password" placeholder="Ingresa tu contraseña..." />
-                                                <i className="fas fa-lock"></i>
-                                            </Form.Group>
-                                            <button className='btn-datosFormRegister_dark' type="submit">
-                                            Ingresar
-                                            </button>
-                                    </Form>
+                                    <span className='span404'>404</span>
+                                    <h1 className='titleNotFound'>Page Not Found</h1>
+                                    <hr className='lineNotFound'/>
+                                    <p className='parraNotFound'>Requested resource is not available right now. Please try again later.</p>
+                                    <Link to="/">
+                                        <button className='btn-datosFormNotFound' type="submit">Go To DashBoard</button>
+                                    </Link>
                                 </div>
                                 </div>
                         </main>
                     </div>
             </section>
-            :
-            <h1>hola</h1>
-          }
-      </section>
   );
 }
 

@@ -17,10 +17,10 @@
 }
 .pruebaImg{
     width: 100%;
-    height: 100%;
+    height: 20%;
     background-image: url("../../images/fondoLogin.svg");
     background-repeat: no-repeat;
-    background-position: 0 100%;
+    background-position: 0 20%;
     background-size: 100%;
     position: absolute;
     bottom: 0;
@@ -62,23 +62,41 @@
     border: none;
     padding: 8px 24px;
     border-radius: 4px;
+    margin-bottom: 250px;
 }
 @media only screen and (min-width: 1000px){
-    .pruebaImg{
-        width: 100%;
-        height: 100vh;
-        background-image: url("../../images/fondoLogin.svg");
-        background-repeat: no-repeat;
-        background-position: 0 350px;
-        background-size: 100% 100%;
-        background-attachment: fixed;
-    }
-}
-@media only screen and (min-width: 1400px){
     .titleLogin span{
         display: inline;
     }
+    .btn-datosFormRegister{
+        margin-bottom: 250px;
+    }
     .pruebaImg{
-        background-position: 0 400px;
+        width: 100%;
+        height: 25%;
+        background-image: url("../../images/fondoLogin.svg");
+        background-repeat: no-repeat;
+        background-position: 0 25%;
+        background-size: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}
+@media only screen and (min-width: 1600px){
+    
+    .pruebaImg{
+        width: 100%;
+        height: 30%;
+        background-image: url("../../images/fondoLogin.svg");
+        background-repeat: no-repeat;
+        background-position: 0 10%;
+        background-size: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}
+@media only screen and (min-width: 1700px){
+    .btn-datosFormRegister{
+        margin-bottom: 320px;
     }
 }

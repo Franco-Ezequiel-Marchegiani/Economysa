@@ -9,7 +9,7 @@ function Login() {
             <main className='prueba'>
                 <div className='loginContainer'>
                     <div>
-                      <span className='btn-darkModeLogin'>a</span>
+                      <span className='btn-darkModeLogin'></span>
                     </div>
                     <div className='loginContent'>
                     <div className='iconLoginContainer'>

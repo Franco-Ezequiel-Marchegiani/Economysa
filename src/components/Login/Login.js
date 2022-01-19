@@ -33,7 +33,7 @@ function Login() {
                       </Form>
                     </div>
                   </div>
-                  <div className='pruebaImg'>
+                  <div className='imagenFondo'>
 
                   </div>
             </main>

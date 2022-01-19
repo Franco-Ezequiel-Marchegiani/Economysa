@@ -1,3 +1,49 @@
+.loginContainerAll{
+    background-color: rgba(216, 222, 233, 0.3);
+    height: 100vh;
+}
+.btn-datosFormRegister{
+    color: #fff;
+    background-color: #5381AC;
+    font-size: 14px;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 4px;
+    margin-bottom: 250px;
+}
+.iconLoginContainer{
+    padding-top: 216px;
+    display: flex;
+    justify-content: center;
+}
+.titleLogin{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    text-align: center;
+}
+.parrafoLogin{
+    text-align: center;
+}
+.formLogin{
+    width: 80%;
+    margin: auto;
+}
+.inputRegister{
+    font-size: 14px;
+    color: #4c566a;
+}
+.imagenFondo{
+    width: 100%;
+    height: 30vh;
+    background-image: url("../../images/fondoLogin.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+}
 
 @media only screen and (min-width: 740px){
     .loginContainerAll{
@@ -15,9 +61,7 @@
         position: static;
         z-index: -5;
     }
-    .prueba{
-    }
-    .pruebaImg{
+    .imagenFondo{
         width: 100%;
         height: 20%;
         background-image: url("../../images/fondoLogin.svg");
@@ -29,14 +73,9 @@
     }
     .formLogin{
         width: 75%;
-        margin: auto;
     }
     .titleLogin{
         font-size: 42px;
-        font-weight: 100;
-        letter-spacing: 1px;
-        margin: 20px 0;
-        text-align: center;
     }
     .titleLogin span{
         display: block;
@@ -48,14 +87,6 @@
     }
     .loginContent img{
         width: 80px;
-    }
-    .iconLoginContainer{
-        padding-top: 216px;
-        display: flex;
-        justify-content: center;
-    }
-    .parrafoLogin{
-        text-align: center;
     }
     .btn-datosFormRegister{
         color: #fff;
@@ -74,7 +105,7 @@
     .btn-datosFormRegister{
         margin-bottom: 250px;
     }
-    .pruebaImg{
+    .imagenFondo{
         width: 100%;
         height: 25%;
         background-image: url("../../images/fondoLogin.svg");
@@ -87,7 +118,7 @@
 }
 @media only screen and (min-width: 1600px){
     
-    .pruebaImg{
+    .imagenFondo{
         width: 100%;
         height: 30%;
         background-image: url("../../images/fondoLogin.svg");

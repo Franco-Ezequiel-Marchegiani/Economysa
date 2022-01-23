@@ -5,6 +5,9 @@ import LoginLightMode from './LoginLightMode';
 function Login() {
   const [darkMode, setDarkMode] = useState(false);
 
+  const user = "angular_client"; 
+  const pass = 123456;
+
   let borrador = "a"
   const requestAPI = {
     method: "POST",

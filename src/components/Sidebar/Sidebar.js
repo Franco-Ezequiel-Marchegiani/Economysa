@@ -41,8 +41,8 @@ function Sidebar() {
                         <Link to="/" className='linkBar'>Mecánicas <i className="fas fa-bookmark"></i></Link>
                       </div>
                       <div className="individualLinkContainer">
-                        <Link to="/" className='linkBar'>Proveedores</Link>
-                        <i className="fas fa-bookmark"></i>
+                        <Link to="/" className='linkBar'>Proveedores <i className="fas fa-bookmark"></i></Link>
+                        
                       </div>
                       <div className="individualLinkContainer">
                         <Link to="/" className='linkBar'>Vendedores</Link>

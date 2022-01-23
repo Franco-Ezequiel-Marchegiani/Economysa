@@ -40,10 +40,30 @@ function Sidebar() {
             <Accordion.Item eventKey="1" className='contentContainerLink'>
                 <Accordion.Header  className='titleLink'>Motor <i className="fas fa-globe-americas"></i></Accordion.Header>
                   <Accordion.Body>
-                    <div>
-                      
-                    </div>
-                    <Link to="/" className='linkBar'>Dasboard</Link>
+                      <div>
+                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <i className="fas fa-chevron-down"></i>
+                      </div>
+                      <div>
+                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <i className="fas fa-chevron-down"></i>
+                      </div>
+                      <div>
+                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <i className="fas fa-chevron-down"></i>
+                      </div>
+                      <div>
+                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <i className="fas fa-chevron-down"></i>
+                      </div>
+                      <div>
+                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <i className="fas fa-chevron-down"></i>
+                      </div>
+                      <div>
+                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <i className="fas fa-chevron-down"></i>
+                      </div>
                   </Accordion.Body>
             </Accordion.Item>
         </Accordion>

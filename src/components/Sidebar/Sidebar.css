@@ -80,7 +80,23 @@
 .fa-globe-americas{
     padding-right: 2px;
 }
-
+.contentContainerLink{
+    border: none;
+    position: relative;
+    text-decoration: none;
+}
+.contentInsideLink{
+    background-color: #ececec;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.linkBar{
+    text-decoration: none;
+    color: #2e3440;
+}
+.accordion-button{
+}
 @media only screen and (min-width: 992px){
     .sidebarContainer{
         width: 25vw;

@@ -31,16 +31,16 @@ function Sidebar() {
             </div>
         </Link>
         <Accordion>
-            <Accordion.Item eventKey="0">
-                <Accordion.Header>Accordion Item #1</Accordion.Header>
-                  <Accordion.Body>
-                    <Link to="/">Dasboard</Link>
+            <Accordion.Item eventKey="0" className='contentContainerLink'>
+                <Accordion.Header className='titleLink'>Seguridad</Accordion.Header>
+                  <Accordion.Body className='contentInsideLink'>
+                    <Link to="/" className='linkBar'>Dasboard</Link>
                   </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1">
-                <Accordion.Header>Accordion Item #2</Accordion.Header>
+            <Accordion.Item eventKey="1" className='contentContainerLink'>
+                <Accordion.Header  className='titleLink'>Motor</Accordion.Header>
                   <Accordion.Body>
-                    <Link to="/">Dasboard</Link>
+                    <Link to="/" className='linkBar'>Dasboard</Link>
                   </Accordion.Body>
             </Accordion.Item>
         </Accordion>

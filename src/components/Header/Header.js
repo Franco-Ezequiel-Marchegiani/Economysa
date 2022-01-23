@@ -1,13 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Header.css';
 import Logo from '../../images/fotoEjemplo.jpg';
 import HeaderMobile from "./HeaderMobile";
 import { Link } from 'react-router-dom';
 function Header() {
+  const [showSpan, setShowSpan] = useState(false)
+  
   return (
     <header className="header">
     <HeaderMobile/>
-      <div className='headerContent'>
+      <div className='headerContent' onClick={()=>setShowSpan(!showSpan)}>
           <img src={Logo} alt="ej" />
           <div className='headerTextContainer'>
               <p>Jeferson Cieza</p>
@@ -15,6 +17,7 @@ function Header() {
           </div>
       </div>
       {/* Span hide */}
+      {showSpan === true ? 
       <div className='containerAllSpanHeaderHide'>
           <div className='userInformationBackground'>
               <div className='userInformation'>
@@ -27,6 +30,9 @@ function Header() {
             <Link className='linkLogOut' to="/login"><button>Sign Out</button></Link>
           </div>
       </div>
+      :
+      ""
+      }
     </header>
   );
 }

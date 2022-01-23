@@ -75,7 +75,7 @@ function FormularioUsuarios() {
         <Header/>
         <div className='divEspacioHome'><p>...</p></div>
         <div className='infoPrincipal'>
-            <h2 className='titleUserCreate'>Crear Cliente</h2>
+            <h2 className='titleUserCreate'>Crear Usuario</h2>
                 <div className='infoPrincipalContainer'>
                     <Form className='inputContainerAll'>                
                         {arrayInputsUsers.map((input, i) =>{
@@ -85,9 +85,9 @@ function FormularioUsuarios() {
                                    </Form.Group>
                         })}
                     </Form>
-                    <div>
-                        <input type="checkbox" />
-                    <label htmlFor="">Estado</label>
+                    <div className='btn-formContainer'>
+                        <button className='btn-saveForm'><i className="fas fa-save"></i> Guardar</button>
+                        <button className='btn-backForm'><i className="fas fa-arrow-left"></i>Atrás</button>
                     </div>
                 </div>
         </div>

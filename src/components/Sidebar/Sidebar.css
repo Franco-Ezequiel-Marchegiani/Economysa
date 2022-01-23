@@ -94,6 +94,8 @@
     border-bottom-right-radius: 8px;
 }
 .linkBar{
+    display: flex;
+    justify-content: space-between;
     text-decoration: none;
     color: #2e3440;
     font-size: 14px;

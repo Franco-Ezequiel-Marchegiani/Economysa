@@ -29,8 +29,7 @@ function Sidebar() {
                 <Accordion.Header  className='titleLink'>Motor <i className="fas fa-globe-americas"></i></Accordion.Header>
                   <Accordion.Body className='contentInsideLink'>
                       <div className="individualLinkContainer">
-                        <Link to="/" className='linkBar'>Clientes</Link>
-                        <i className="fas fa-list-ul"></i>
+                        <Link to="/" className='linkBar'>Clientes<i className="fas fa-list-ul"></i></Link>
                       </div>
                       <div className="individualLinkContainer">
                         <Link to="/" className='linkBar'>Direcciones Entrega</Link>

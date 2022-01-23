@@ -1,11 +1,10 @@
 import React from 'react';
 import './Header.css';
-import Logo from '../../images/fotoEjemplo.jpg';
-import HeaderMobile from "./HeaderMobile";
-function Header() {
+import Logo from '../../images/fotoEjemplo.jpg'
+
+function HeaderMobile() {
   return (
-    <header className="header">
-    <HeaderMobile/>
+    <header className="headerMobile">
       <div className='headerContent'>
           <img src={Logo} alt="ej" />
           <div className='headerTextContainer'>
@@ -17,4 +16,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderMobile;

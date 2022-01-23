@@ -1,3 +1,4 @@
+
 .header{
     width: 85vw;
     height: 75px;
@@ -40,6 +41,9 @@
 }
 
 @media only screen and (min-width: 992px){
+    .headerMobile{
+        display: none;
+    }
     .header{
         width: 75vw;
     }

@@ -9,7 +9,7 @@ function LoginLightMode() {
     <section>
     {darkMode === false ?  
       <section className="loginContainerAll">
-        <i onClick={() => setDarkMode(true)} class="fas fa-circle btn-darkModeLogin"></i>
+        <i onClick={() => setDarkMode(true)} className="fas fa-circle btn-darkModeLogin"></i>
           <div>
               <main>
                   <div className='loginContainer'>
@@ -23,7 +23,7 @@ function LoginLightMode() {
                             <Form.Group className="mb-3 inputRegister" controlId="formBasicEmail">
                               <Form.Label>Correo electrónico</Form.Label>
                                   <Form.Control type="email" placeholder="Ingresa tu correo electrónico..." />
-                                  <i class="fas fa-user"></i>
+                                  <i className="fas fa-user"></i>
                             </Form.Group>
 
                             <Form.Group className="mb-3 inputRegister" controlId="formBasicPassword">

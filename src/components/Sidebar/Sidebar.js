@@ -21,8 +21,7 @@ function Sidebar() {
                 <Accordion.Header className='titleLink'>Seguridad <i className="fas fa-lock lockLink"></i></Accordion.Header>
                   <Accordion.Body className='contentInsideLink'>
                       <div className="individualLinkContainer">
-                        <Link to="/Seguridad" className='linkBar'>Seguridad</Link>
-                        <i className="fas fa-chevron-down"></i>
+                        <Link to="/Seguridad" className='linkBar'>Usuario <i className="fas fa-users"></i></Link>
                       </div>
                   </Accordion.Body>
             </Accordion.Item>

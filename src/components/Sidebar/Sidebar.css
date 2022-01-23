@@ -98,9 +98,18 @@
     color: #2e3440;
     font-size: 14px;
 }
+.linkBar:hover{
+    color: #2e3440;
+}
 .individualLinkContainer{
     position: relative;
     padding: 6px 0;
+}
+.fa-users{
+    font-size: 18px;
+    position: absolute;
+    right: -10px;
+    top: 10px;
 }
 .fa-chevron-down{
     position: absolute;

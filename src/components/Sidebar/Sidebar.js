@@ -45,8 +45,7 @@ function Sidebar() {
                         
                       </div>
                       <div className="individualLinkContainer">
-                        <Link to="/" className='linkBar'>Vendedores</Link>
-                        <i className="fas fa-bookmark"></i>
+                        <Link to="/" className='linkBar'>Vendedores <i className="fas fa-bookmark"></i></Link>
                       </div>
                   </Accordion.Body>
             </Accordion.Item>

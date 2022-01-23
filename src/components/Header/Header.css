@@ -25,13 +25,14 @@
     width: 45px;
     height: 45px;
     margin-left: 16px;
+    margin-top: 12px;
 }
 .logoTitleContainerHeader p{
     font-size: 22.5px;
     color: #4c566a;
     margin-left: 10px;
     position: relative;
-    top: 12px;
+    top: 16px;
 }
 @media only screen and (min-width: 992px){
     .headerMobile{
@@ -74,6 +75,14 @@
         position: relative;
         bottom: 10px;
     }
+}
+.headerBtnContainerMobile{
+    padding-top: 24px;
+}
+.headerBtnContainerMobile i{
+    font-size: 20px;
+    padding: 0 20px;
+    cursor: pointer;
 }
 @media only screen and (min-width: 1200px){
     .header{

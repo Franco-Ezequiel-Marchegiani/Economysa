@@ -32,13 +32,13 @@ function Sidebar() {
         </Link>
         <Accordion>
             <Accordion.Item eventKey="0" className='contentContainerLink'>
-                <Accordion.Header className='titleLink'>Seguridad</Accordion.Header>
+                <Accordion.Header className='titleLink'>Seguridad <i className="fas fa-lock lockLink"></i></Accordion.Header>
                   <Accordion.Body className='contentInsideLink'>
                     <Link to="/" className='linkBar'>Dasboard</Link>
                   </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1" className='contentContainerLink'>
-                <Accordion.Header  className='titleLink'>Motor</Accordion.Header>
+                <Accordion.Header  className='titleLink'>Motor <i className="fas fa-globe-americas"></i></Accordion.Header>
                   <Accordion.Body>
                     <Link to="/" className='linkBar'>Dasboard</Link>
                   </Accordion.Body>

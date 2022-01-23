@@ -64,8 +64,10 @@
     transition: 300ms;
 }
 .lockLink{
-    position: initial;
-    padding-right: 2px;
+    position: absolute;
+    font-size: 1rem;
+    top: 16px;
+    right: 15px;
 }
 .linkSidebar i{
     font-size: 16px;
@@ -78,7 +80,10 @@
     padding-right: 10px;
 }
 .fa-globe-americas{
-    padding-right: 2px;
+    position: absolute;
+    font-size: 1rem;
+    top: 16px;
+    right: 15px;
 }
 .contentContainerLink{
     border: none;
@@ -95,7 +100,18 @@
     text-decoration: none;
     color: #2e3440;
 }
+.titleLink{
+    position: relative;
+}
 .accordion-button{
+}
+.accordion-button::after{
+    margin-right: 20px;
+}
+.accordion-button:not(.collapsed){
+    background-image: url("../../images/flechaAbajo.png");
+    background-color: #5e81ac;
+    color: #fff;
 }
 @media only screen and (min-width: 992px){
     .sidebarContainer{

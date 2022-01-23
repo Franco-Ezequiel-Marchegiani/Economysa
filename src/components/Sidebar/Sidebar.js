@@ -33,15 +33,12 @@ function Sidebar() {
                       </div>
                       <div className="individualLinkContainer">
                         <Link to="/" className='linkBar'>Direcciones Entrega <i className="fas fa-folder"></i></Link>
-                        
                       </div>
                       <div className="individualLinkContainer">
-                        <Link to="/" className='linkBar'>Productos</Link>
-                        <i className="fas fa-bookmark"></i>
+                        <Link to="/" className='linkBar'>Productos <i className="fas fa-bookmark"></i></Link>
                       </div>
                       <div className="individualLinkContainer">
-                        <Link to="/" className='linkBar'>Mecánicas</Link>
-                        <i className="fas fa-bookmark"></i>
+                        <Link to="/" className='linkBar'>Mecánicas <i className="fas fa-bookmark"></i></Link>
                       </div>
                       <div className="individualLinkContainer">
                         <Link to="/" className='linkBar'>Proveedores</Link>

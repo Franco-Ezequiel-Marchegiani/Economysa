@@ -91,7 +91,7 @@
     text-decoration: none;
 }
 .contentInsideLink{
-    background-color: #ececec;
+    background-color: #e4e4e4;
     border: none;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -117,7 +117,6 @@
 }
 .individualLinkContainer{
     position: relative;
-    background-color: #ececec;
 }
 .fa-bookmark{
     position: absolute;

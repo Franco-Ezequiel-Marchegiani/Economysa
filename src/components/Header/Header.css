@@ -79,6 +79,16 @@
         position: absolute;  
         right: 38px;
         top: 75px;
+        box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    }
+    .containerAllSpanHeaderHide::before{
+        position: absolute;
+        right: 0px;
+        bottom: 143px;
+        width: 50px;
+        height: 6px;
+        background-color: #5e81ac;
+        content: " ";
     }
     .userInformationBackground{
         display: flex;
@@ -110,6 +120,20 @@
         font-size: 13px;
         margin-bottom: 10px;
     }
+    .containerLogOut{
+        width: 250px;
+        padding: 10px;
+        background-color: #fff;
+    }
+    .linkLogOut button{
+        font-size: 14px;
+        border: none;
+        color: #434c5e;
+        border-radius: 4px;
+        background-color: #d8dee9;
+        cursor: pointer;
+    }
+    
 }
 .headerBtnContainerMobile{
     padding-top: 24px;

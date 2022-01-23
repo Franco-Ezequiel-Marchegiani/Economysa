@@ -23,8 +23,8 @@ function Header() {
                 <span className='puestOHeaderHide'>Design</span>
               </div>
           </div>
-          <div>
-            <Link to="/login"><button>Sign Out</button></Link>
+          <div className='containerLogOut'>
+            <Link className='linkLogOut' to="/login"><button>Sign Out</button></Link>
           </div>
       </div>
     </header>

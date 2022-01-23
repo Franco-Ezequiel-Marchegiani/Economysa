@@ -41,27 +41,27 @@ function Sidebar() {
                 <Accordion.Header  className='titleLink'>Motor <i className="fas fa-globe-americas"></i></Accordion.Header>
                   <Accordion.Body>
                       <div>
-                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <Link to="/" className='linkBar'>Clientes</Link>
                         <i className="fas fa-chevron-down"></i>
                       </div>
                       <div>
-                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <Link to="/" className='linkBar'>Direcciones Entrega</Link>
                         <i className="fas fa-chevron-down"></i>
                       </div>
                       <div>
-                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <Link to="/" className='linkBar'>Productos</Link>
                         <i className="fas fa-chevron-down"></i>
                       </div>
                       <div>
-                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <Link to="/" className='linkBar'>Mecánicas</Link>
                         <i className="fas fa-chevron-down"></i>
                       </div>
                       <div>
-                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <Link to="/" className='linkBar'>Proveedores</Link>
                         <i className="fas fa-chevron-down"></i>
                       </div>
                       <div>
-                        <Link to="/" className='linkBar'>Dasboard</Link>
+                        <Link to="/" className='linkBar'>Vendedores</Link>
                         <i className="fas fa-chevron-down"></i>
                       </div>
                   </Accordion.Body>

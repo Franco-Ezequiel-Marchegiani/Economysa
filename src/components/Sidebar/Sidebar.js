@@ -61,7 +61,7 @@ function Sidebar() {
                       </div>
                       <div className="linkContainer">
                         <Link to="/" className='linkBar'>Proveedores</Link>
-                        <i className="fas fa-chevron-down"></i>
+                        <i className="fas fa-bookmark"></i>
                       </div>
                       <div className="linkContainer">
                         <Link to="/" className='linkBar'>Vendedores</Link>

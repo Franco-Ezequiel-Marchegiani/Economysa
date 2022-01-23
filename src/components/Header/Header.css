@@ -75,6 +75,41 @@
         position: relative;
         bottom: 10px;
     }
+    .containerAllSpanHeaderHide{
+        position: absolute;  
+        right: 38px;
+        top: 75px;
+    }
+    .userInformationBackground{
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        height: 100px;
+        padding: 12px 18px 0 12px;
+        background-image: url("../../images/bg-profilemenu.jpg");
+    }
+    .userInformation{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .userInformation img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .nameHeaderHide{
+        color: #eceff4;
+        margin: 0;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .puestOHeaderHide{
+        color: #c3ccdd;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
 }
 .headerBtnContainerMobile{
     padding-top: 24px;

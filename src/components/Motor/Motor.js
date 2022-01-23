@@ -9,7 +9,6 @@ import './Motor.css';
 function Motor() {
   const params = useParams();
   const id = Number(params.id)
-  console.log(id);
   let titulosMotores = [
     {
       id: 1,
@@ -44,10 +43,8 @@ function Motor() {
       columna8: "Acciones",
     }
   ]
-
   let tituloMotor = titulosMotores.find(titulo => titulo.id === id)
   let columnasTablaMotorSeleccionado = columnasTablasMotores.find(titulo => titulo.id === id)
-  console.log(columnasTablaMotorSeleccionado.columna1);
   return (
     <section className="globalContainerContent">
       <Sidebar/>

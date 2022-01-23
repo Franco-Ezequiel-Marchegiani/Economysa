@@ -90,6 +90,7 @@
 .contentInsideLink{
     background-color: #e4e4e4;
     border: none;
+    padding: 0;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
@@ -105,13 +106,18 @@
 }
 .individualLinkContainer{
     position: relative;
-    padding: 6px 0;
+    padding: 1rem 1.25rem;
+    transition: 500ms;
+}
+.individualLinkContainer:hover{
+    background-color: rgb(245, 245, 245);
+    transition: 500ms;
 }
 .fa-users{
     font-size: 18px;
     position: absolute;
-    right: -10px;
-    top: 10px;
+    right: 8px;
+    top: 18px;
 }
 .fa-chevron-down{
     position: absolute;
@@ -119,15 +125,15 @@
 }
 .fa-bookmark{
     position: absolute;
-    right: 0;
+    right: 12px;
 }
 .fa-list-ul{
     position: absolute;
-    right: 0;
+    right: 12px;
 }
 .fa-folder{
     position: absolute;
-    right: 0;
+    right: 12px;
 }
 .titleLink{
     position: relative;

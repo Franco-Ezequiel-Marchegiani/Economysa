@@ -16,20 +16,6 @@ function Sidebar() {
     </div>
     <div className='linksContainer'>
         <Link className='linkSidebar' to="/">Dasboard <i className="fas fa-home"></i></Link>
-        <Link className='linkSidebar' to="/Seguridad">
-            Seguridad 
-            <div className='iconContainerSeguridad'>
-            <i className="fas fa-chevron-down"></i>
-            <i className="fas fa-lock lockLink"></i>
-            </div>
-        </Link>
-        <Link className='linkSidebar' to="/motor">
-            Motor
-            <div>
-                <i className="fas fa-chevron-down"></i>
-                <i className="fas fa-globe-americas"></i>
-            </div>
-        </Link>
         <Accordion>
             <Accordion.Item eventKey="0" className='contentContainerLink'>
                 <Accordion.Header className='titleLink'>Seguridad <i className="fas fa-lock lockLink"></i></Accordion.Header>

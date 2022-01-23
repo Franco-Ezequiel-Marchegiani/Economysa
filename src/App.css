@@ -1,5 +1,5 @@
 .globalContainerContent{
-  min-width: 100%;
+  width: 100vw;
   display: flex;
 }
 body{

@@ -1,3 +1,9 @@
+.globalContainerContent{
+    width: 100vw;
+}
+.fondoGeneral{
+    width: 100vw;
+}
 .titleUserCreate{
     height: 46px;
     font-size: 21px;

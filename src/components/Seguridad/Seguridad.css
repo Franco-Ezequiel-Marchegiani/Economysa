@@ -58,6 +58,9 @@
     text-decoration: none;
     color: #ffffff;
 }
+.linkBtn-new:hover{
+    color: #ffffff;
+}
 .tableContainer{
     padding: 28px;
     padding-top: 0px;

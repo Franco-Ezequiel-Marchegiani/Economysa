@@ -34,7 +34,7 @@ function Sidebar() {
             <Accordion.Item eventKey="0" className='contentContainerLink'>
                 <Accordion.Header className='titleLink'>Seguridad <i className="fas fa-lock lockLink"></i></Accordion.Header>
                   <Accordion.Body className='contentInsideLink'>
-                      <div className="linkContainer">
+                      <div className="individualLinkContainer">
                         <Link to="/Seguridad" className='linkBar'>Seguridad</Link>
                         <i className="fas fa-chevron-down"></i>
                       </div>
@@ -42,30 +42,30 @@ function Sidebar() {
             </Accordion.Item>
             <Accordion.Item eventKey="1" className='contentContainerLink'>
                 <Accordion.Header  className='titleLink'>Motor <i className="fas fa-globe-americas"></i></Accordion.Header>
-                  <Accordion.Body>
-                      <div className="linkContainer">
+                  <Accordion.Body className='contentInsideLink'>
+                      <div className="individualLinkContainer">
                         <Link to="/" className='linkBar'>Clientes</Link>
                         <i className="fas fa-list-ul"></i>
                       </div>
-                      <div className="linkContainer">
+                      <div className="individualLinkContainer">
                         <Link to="/" className='linkBar'>Direcciones Entrega</Link>
                         <i className="fas fa-folder"></i>
                       </div>
-                      <div className="linkContainer">
+                      <div className="individualLinkContainer">
                         <Link to="/" className='linkBar'>Productos</Link>
                         <i className="fas fa-bookmark"></i>
                       </div>
-                      <div className="linkContainer">
+                      <div className="individualLinkContainer">
                         <Link to="/" className='linkBar'>Mecánicas</Link>
                         <i className="fas fa-bookmark"></i>
                       </div>
-                      <div className="linkContainer">
+                      <div className="individualLinkContainer">
                         <Link to="/" className='linkBar'>Proveedores</Link>
                         <i className="fas fa-bookmark"></i>
                       </div>
-                      <div className="linkContainer">
+                      <div className="individualLinkContainer">
                         <Link to="/" className='linkBar'>Vendedores</Link>
-                        <i className="fas fa-chevron-down"></i>
+                        <i className="fas fa-bookmark"></i>
                       </div>
                   </Accordion.Body>
             </Accordion.Item>

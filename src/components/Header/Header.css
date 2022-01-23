@@ -7,6 +7,7 @@
 }
 .headerContent{
     display: none;
+    cursor: pointer;
 }
 .headerMobile{
     display: initial;

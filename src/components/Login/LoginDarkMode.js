@@ -46,7 +46,7 @@ function LoginDarkMode() {
                                                 <Form.Control onChange={(e) =>setPassword(e.target.value)} className='inputRegisterInput_dark' type="password" placeholder="Ingresa tu contraseña..." />
                                                 <i className="fas fa-lock logoPasswordLogin"></i>
                                             </Form.Group>
-                                            <button className='btn-datosFormRegister_dark' type="submit">
+                                            <button onClick={login} className='btn-datosFormRegister_dark' type="submit">
                                             Ingresar
                                             </button>
                                     </Form>

@@ -21,6 +21,7 @@ function LoginDarkMode() {
         urlencoded.append("grant_type", "password");
         let myHeaders = new Headers();
         myHeaders.append("Authorization", "Basic " + encodeData);
+        myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
       }
 
 

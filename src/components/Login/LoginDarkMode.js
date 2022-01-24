@@ -18,6 +18,7 @@ function LoginDarkMode() {
         let urlencoded = new URLSearchParams();
         urlencoded.append("username", email);
         urlencoded.append("password", password);
+        urlencoded.append("grant_type", "password");
       }
 
 

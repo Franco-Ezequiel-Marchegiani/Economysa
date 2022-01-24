@@ -16,6 +16,7 @@ function LoginDarkMode() {
     async function login (e){ 
         let item = (email, password);
         let urlencoded = new URLSearchParams();
+        urlencoded.append("username", email);
       }
 
 

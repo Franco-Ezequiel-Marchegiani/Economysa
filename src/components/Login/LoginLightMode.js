@@ -33,7 +33,7 @@ function LoginLightMode() {
     localStorage.setItem("user-info",JSON.stringify(result))
     console.log(result);
   }
-  const manejador = e => {
+  const formulario = e => {
     e.preventDefault()
   }
   return (
@@ -50,7 +50,7 @@ function LoginLightMode() {
                       </div>
                         <h1 className='titleLogin'><span>Ingresa a</span> <span>Economysa</span></h1>
                         <p className='parrafoLogin'>Bienvenido. Ingrese sus credenciales.</p>
-                        <Form className='formLogin' onSubmit={manejador}>
+                        <Form className='formLogin' onSubmit={formulario}>
                             <Form.Group className="mb-3 inputRegister" controlId="formBasicEmail">
                               <Form.Label>Correo electrónico</Form.Label>
                                   <Form.Control type="email" onChange={(e) =>setEmail(e.target.value)} placeholder="Ingresa tu correo electrónico..." />

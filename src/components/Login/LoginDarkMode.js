@@ -19,6 +19,7 @@ function LoginDarkMode() {
         urlencoded.append("username", email);
         urlencoded.append("password", password);
         urlencoded.append("grant_type", "password");
+        let myHeaders = new Headers();
       }
 
 

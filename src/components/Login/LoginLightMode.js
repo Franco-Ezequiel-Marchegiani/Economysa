@@ -8,6 +8,7 @@ function LoginLightMode() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  /* Configuración de API */
   const url = "https://viringo-dev.herokuapp.com/oauth/token";
   const user = "angular_client"; 
   const pass = 123456;
@@ -26,6 +27,7 @@ function LoginLightMode() {
       redirect: 'follow'
   }
 
+  /* Llamado a la API */
   async function login (e){ 
     console.log(email, password);
     let result = await fetch(url,configAPI);

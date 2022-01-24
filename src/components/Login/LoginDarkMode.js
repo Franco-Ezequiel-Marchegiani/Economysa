@@ -8,26 +8,29 @@ function LoginDarkMode() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
+    /* Configuración de API */
     const url = "https://viringo-dev.herokuapp.com/oauth/token";
     const user = "angular_client"; 
     const pass = 123456;
     const encodeData = btoa(user + ":" + pass);
+    let item = (email, password);
+    let urlencoded = new URLSearchParams();
+    urlencoded.append("username", email);
+    urlencoded.append("password", password);
+    urlencoded.append("grant_type", "password");
+    let myHeaders = new Headers();
+    myHeaders.append("Authorization", "Basic " + encodeData);
+    myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
+    let configAPI = {
+        method: 'POST',
+          headers: myHeaders,
+          body: urlencoded,
+          redirect: 'follow'
+      }
 
+    /* Llamado a la API */
     async function login (e){ 
-        let item = (email, password);
-        let urlencoded = new URLSearchParams();
-        urlencoded.append("username", email);
-        urlencoded.append("password", password);
-        urlencoded.append("grant_type", "password");
-        let myHeaders = new Headers();
-        myHeaders.append("Authorization", "Basic " + encodeData);
-        myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
-        let result = await fetch(url,{
-            method: 'POST',
-            headers: myHeaders,
-            body: urlencoded,
-            redirect: 'follow'
-          });
+        let result = await fetch(url,configAPI);
           result = await result.json();
           localStorage.setItem("user-info",JSON.stringify(result))
           console.log(result);

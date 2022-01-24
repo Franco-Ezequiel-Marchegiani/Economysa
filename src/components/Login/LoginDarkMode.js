@@ -23,6 +23,7 @@ function LoginDarkMode() {
         myHeaders.append("Authorization", "Basic " + encodeData);
         myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
         let result = await fetch(url,{
+            method: 'POST',
           });
       }
 

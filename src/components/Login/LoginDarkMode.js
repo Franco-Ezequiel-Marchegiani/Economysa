@@ -12,6 +12,13 @@ function LoginDarkMode() {
     const user = "angular_client"; 
     const pass = 123456;
     const encodeData = btoa(user + ":" + pass);
+
+
+
+
+    const formulario = e => {
+        e.preventDefault()
+      }
   return (
       <section>
           {darkMode === true ?
@@ -26,7 +33,7 @@ function LoginDarkMode() {
                                     </div>
                                     <h1 className='titleLogin_dark'><span>Ingresa a</span> <span>Economysa</span></h1>
                                     <p className='parrafoLogin_dark'>Bienvenido. Ingrese sus credenciales.</p>
-                                    <Form className='formLogin'>
+                                    <Form className='formLogin' onSubmit={formulario}>
                                             <Form.Group className="mb-3 inputRegister_dark" controlId="formBasicEmail">
                                             <Form.Label>Correo electrónico</Form.Label>
                                                 <Form.Control className='inputRegisterInput_dark' type="email" placeholder="Ingresa tu correo electrónico..." />

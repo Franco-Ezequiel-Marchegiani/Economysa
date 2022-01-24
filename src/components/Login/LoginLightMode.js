@@ -34,6 +34,10 @@ function LoginLightMode() {
     result = await result.json();
     localStorage.setItem("user-info",JSON.stringify(result))
     console.log(result);
+    console.log(result.access_token);
+    localStorage.setItem("tokenKey",JSON.stringify(result.access_token));
+
+
   }
   const formulario = e => {
     e.preventDefault()

@@ -27,7 +27,6 @@ function LoginDarkMode() {
           body: urlencoded,
           redirect: 'follow'
       }
-
     /* Llamado a la API */
     async function login (e){ 
         let result = await fetch(url,configAPI);
@@ -35,8 +34,6 @@ function LoginDarkMode() {
           localStorage.setItem("user-info",JSON.stringify(result))
           console.log(result);
       }
-
-
     const formulario = e => {
         e.preventDefault()
       }

@@ -5,7 +5,12 @@ import Logo from '../../images/logo.png'
 import LoginDarkMode from './LoginDarkMode';
 function LoginLightMode() {
   const [darkMode, setDarkMode] = useState(false);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
+  const login = e =>{
+    console.log(email, password);
+  }
   const manejador = e => {
     e.preventDefault()
   }
@@ -26,16 +31,16 @@ function LoginLightMode() {
                         <Form className='formLogin' onSubmit={manejador}>
                             <Form.Group className="mb-3 inputRegister" controlId="formBasicEmail">
                               <Form.Label>Correo electrónico</Form.Label>
-                                  <Form.Control type="email" placeholder="Ingresa tu correo electrónico..." />
+                                  <Form.Control type="email" onChange={(e) =>setEmail(e.target.value)} placeholder="Ingresa tu correo electrónico..." />
                                   <i className="fas fa-user"></i>
                             </Form.Group>
 
                             <Form.Group className="mb-3 inputRegister" controlId="formBasicPassword">
                               <Form.Label>Contraseña</Form.Label>
-                                  <Form.Control type="password" placeholder="Ingresa tu contraseña..." />
+                                  <Form.Control type="password" onChange={(e) =>setPassword(e.target.value)} placeholder="Ingresa tu contraseña..." />
                                   <i className="fas fa-lock logoPasswordLogin"></i>
                             </Form.Group>
-                            <button className='btn-datosFormRegister' type="submit">
+                            <button onClick={login} className='btn-datosFormRegister' type="submit">
                               Ingresar
                             </button>
                         </Form>

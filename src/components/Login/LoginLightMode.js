@@ -12,23 +12,23 @@ function LoginLightMode() {
   const user = "angular_client"; 
   const pass = 123456;
   const encodeData = btoa(user + ":" + pass);
-
-  async function login (e){ 
-    console.log(email, password);
-    let item = (email, password);
-    let urlencoded = new URLSearchParams();
-    urlencoded.append("username", email);
-    urlencoded.append("password", password);
-    urlencoded.append("grant_type", "password");
-    let myHeaders = new Headers();
-    myHeaders.append("Authorization", "Basic " + encodeData);
-    myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
-    let result = await fetch(url,{
-      method: 'POST',
+  let urlencoded = new URLSearchParams();
+  urlencoded.append("username", email);
+  urlencoded.append("password", password);
+  urlencoded.append("grant_type", "password");
+  let myHeaders = new Headers();
+  myHeaders.append("Authorization", "Basic " + encodeData);
+  myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
+  let configAPI = {
+    method: 'POST',
       headers: myHeaders,
       body: urlencoded,
       redirect: 'follow'
-    });
+  }
+
+  async function login (e){ 
+    console.log(email, password);
+    let result = await fetch(url,configAPI);
     result = await result.json();
     localStorage.setItem("user-info",JSON.stringify(result))
     console.log(result);

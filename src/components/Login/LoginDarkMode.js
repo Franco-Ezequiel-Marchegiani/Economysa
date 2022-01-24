@@ -36,13 +36,13 @@ function LoginDarkMode() {
                                     <Form className='formLogin' onSubmit={formulario}>
                                             <Form.Group className="mb-3 inputRegister_dark" controlId="formBasicEmail">
                                             <Form.Label>Correo electrónico</Form.Label>
-                                                <Form.Control onChange={(e) =>setPassword(e.target.value)} className='inputRegisterInput_dark' type="email" placeholder="Ingresa tu correo electrónico..." />
+                                                <Form.Control onChange={(e) =>setEmail(e.target.value)} className='inputRegisterInput_dark' type="email" placeholder="Ingresa tu correo electrónico..." />
                                                 <i className="fas fa-user"></i>
                                             </Form.Group>
 
                                             <Form.Group className="mb-3 inputRegister_dark" controlId="formBasicPassword">
                                             <Form.Label>Contraseña</Form.Label>
-                                                <Form.Control className='inputRegisterInput_dark' type="password" placeholder="Ingresa tu contraseña..." />
+                                                <Form.Control onChange={(e) =>setPassword(e.target.value)} className='inputRegisterInput_dark' type="password" placeholder="Ingresa tu contraseña..." />
                                                 <i className="fas fa-lock logoPasswordLogin"></i>
                                             </Form.Group>
                                             <button className='btn-datosFormRegister_dark' type="submit">

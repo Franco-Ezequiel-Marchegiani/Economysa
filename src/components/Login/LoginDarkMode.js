@@ -25,6 +25,7 @@ function LoginDarkMode() {
         let result = await fetch(url,{
             method: 'POST',
             headers: myHeaders,
+            body: urlencoded,
           });
       }
 

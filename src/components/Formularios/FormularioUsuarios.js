@@ -85,9 +85,13 @@ function FormularioUsuarios() {
                                    </Form.Group>
                         })}
                     </Form>
-                    <div className='btn-formContainer'>
-                        <button className='btn-saveForm'><i className="fas fa-save"></i> Guardar</button>
-                        <button className='btn-backForm'><i className="fas fa-arrow-left"></i>Atrás</button>
+                    <div className='btns-container'>
+                        <div className='btn-formContainer'>
+                            <button className='btn-saveForm'><i className="fas fa-save"></i> Guardar</button>
+                        </div>
+                        <div className='btn-formContainer2'>
+                            <button className='btn-backForm'><i className="fas fa-arrow-left"></i>Atrás</button>
+                        </div>
                     </div>
                 </div>
         </div>

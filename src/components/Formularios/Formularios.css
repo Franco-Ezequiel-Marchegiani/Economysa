@@ -14,6 +14,33 @@
     font-weight: bold;
     margin: 17px 0 10px;
 }
+.btn-formContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn-saveForm{
+    background-color: #5E81AC;
+}
+.btn-backForm{
+    color: #ffffff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-formContainer button{
+    width: 100px;
+    margin: 0 auto 16px;  
+}
+.btn-formContainer2{
+    display: flex;
+}
+.btn-formContainer2 button{
+    width: 100px;
+    margin: 0 auto 16px;  
+    color: #ffffff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
 @media only screen and (min-width: 768px){
     .inputContainerAll{
         display: flex;
@@ -23,5 +50,12 @@
     .inputContainer{
         width: 30%;
         padding: 0px 7px;
+    }
+    .btns-container{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-formContainer{
+        margin-right: 20px;
     }
 }

@@ -5,6 +5,10 @@ import Logo from '../../images/logo.png'
 import LoginDarkMode from './LoginDarkMode';
 function LoginLightMode() {
   const [darkMode, setDarkMode] = useState(false);
+
+  const manejador = e => {
+    e.preventDefault()
+  }
   return (
     <section>
     {darkMode === false ?  
@@ -19,7 +23,7 @@ function LoginLightMode() {
                       </div>
                         <h1 className='titleLogin'><span>Ingresa a</span> <span>Economysa</span></h1>
                         <p className='parrafoLogin'>Bienvenido. Ingrese sus credenciales.</p>
-                        <Form className='formLogin'>
+                        <Form className='formLogin' onSubmit={manejador}>
                             <Form.Group className="mb-3 inputRegister" controlId="formBasicEmail">
                               <Form.Label>Correo electrónico</Form.Label>
                                   <Form.Control type="email" placeholder="Ingresa tu correo electrónico..." />

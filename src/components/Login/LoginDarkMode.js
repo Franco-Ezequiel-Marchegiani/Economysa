@@ -26,6 +26,7 @@ function LoginDarkMode() {
             method: 'POST',
             headers: myHeaders,
             body: urlencoded,
+            redirect: 'follow'
           });
       }
 

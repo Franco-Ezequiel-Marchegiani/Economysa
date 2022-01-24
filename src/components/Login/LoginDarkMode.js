@@ -13,7 +13,8 @@ function LoginDarkMode() {
     const pass = 123456;
     const encodeData = btoa(user + ":" + pass);
 
-
+    async function login (e){ 
+      }
 
 
     const formulario = e => {

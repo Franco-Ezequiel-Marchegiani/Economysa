@@ -12,8 +12,6 @@ function LoginLightMode() {
   const user = "angular_client"; 
   const pass = 123456;
   const encodeData = btoa(user + ":" + pass);
-  
-
 
   async function login (e){ 
     console.log(email, password);

@@ -5,6 +5,8 @@ import Logo from '../../images/logo.png'
 import Login from './Login';
 function LoginDarkMode() {
     const [darkMode, setDarkMode] = useState(true);
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
   return (
       <section>
           {darkMode === true ?

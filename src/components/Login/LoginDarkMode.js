@@ -10,7 +10,8 @@ function LoginDarkMode() {
 
     const url = "https://viringo-dev.herokuapp.com/oauth/token";
     const user = "angular_client"; 
-  const pass = 123456;
+    const pass = 123456;
+    const encodeData = btoa(user + ":" + pass);
   return (
       <section>
           {darkMode === true ?

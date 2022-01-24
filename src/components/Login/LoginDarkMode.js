@@ -24,6 +24,7 @@ function LoginDarkMode() {
         myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
         let result = await fetch(url,{
             method: 'POST',
+            headers: myHeaders,
           });
       }
 
